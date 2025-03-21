@@ -1,0 +1,22 @@
+{
+    "test_limit": null,
+    "input_csv": "full_test/input.csv",
+    "do_create_input_csv": false,
+    "do_extract_features": true,
+    "extract_features_kw": {"write_feature_files": true, "feat_parent": "full_test_deid/feat",
+        "load_existing": true, "speech_path_idx": "speech_anonymized_path"},
+    "extract_features_csv_out": "full_test_deid/input_features.csv",
+    "do_calculate_features_importance": true,
+    "features_importance_csv_out": "full_test_deid/input_features_importance.csv",
+    "do_voice_deid": false,
+    "deid_csv_out": null,
+    "deid_root": null,
+    "skip_existing_deid": null,
+    "do_eer": null,
+    "eer_out": null,
+    "do_cog_classify": true,
+    "cc_out": "full_test_deid/results/cc_results.json",
+    "precision": 4,
+    "label": ["DX"],
+    "num_important_features": 20
+}
